@@ -4,6 +4,9 @@
 Returns JSON
 
 Write `/users` to get all users.
+```
+/users
+```
 
 
 /users Gets all users
