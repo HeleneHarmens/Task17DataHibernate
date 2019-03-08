@@ -3,7 +3,7 @@
 ## GET options
 *Use Body none*
 
-GET...
+### GET...    
 `/users` to get all users.
 e.g. 'http://localhost:8080/users'
 
@@ -26,9 +26,9 @@ e.g. 'http://localhost:8080/class/druid'
 ## POST options
 *Use Body content type: application/json*
 
-POST...
-`/user` to add new user.
-e.g.
+### POST...
+`/user` to add new user.    
+e.g.    
 ```
 {
 "userName" : "Thomas",
