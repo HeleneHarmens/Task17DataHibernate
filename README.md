@@ -27,7 +27,7 @@ e.g. 'http://localhost:8080/class/druid'
 *Use Body content type: application/json*
 
 ### POST...
-`/user` to add new user.    
+`**/user**` to add new user.    
 *for example:*    
 ```
 {
