@@ -37,7 +37,7 @@
 }
 ```
 
-`/character` to add new character.
+`/character` to add new character.    
 *for example:*     
 ```
 {
