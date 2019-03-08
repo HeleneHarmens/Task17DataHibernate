@@ -28,7 +28,7 @@ e.g. 'http://localhost:8080/class/druid'
 
 ### POST...
 `/user` to add new user.    
-e.g.    
+*for example:*    
 ```
 {
 "userName" : "Thomas",
@@ -38,7 +38,7 @@ e.g.
 ```
 
 `/character` to add new character.
-e.g.
+*for example:*     
 ```
 {
 "userID" : 9,
