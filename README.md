@@ -1,7 +1,7 @@
 # Task17DataHibernate
 
 ## GET options
-*Use Body none*
+*Returns JSON*
 
 ### GET...    
 `/users` to get all users.    
@@ -24,7 +24,7 @@
 
 
 ## POST options
-*Use Body content type: application/json*
+*Use content type: application/json*
 
 ### POST...
 `/user` to add new user.    
