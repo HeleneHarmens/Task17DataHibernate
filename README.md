@@ -1,20 +1,39 @@
 # Task17DataHibernate
 
 ## GET options
-Returns JSON
+*Use Body none*
 
-Write `/users` to get all users.
-```
-/users
-```
+GET...
+`/users` to get all users.
+e.g. 'http://localhost:8080/users'
+
+Write `/user{id}` to get user by ID number.
+e.g. 'http://localhost:8080/user/1'
+
+`/characters` to get all characters.
+e.g. 'http://localhost:8080/characters'
+
+`/character/{id}` to get character by ID number.
+e.g. 'http://localhost:8080/characters'
+
+`/classes` to get all classes.
+e.g. 'http://localhost:8080/classes'
+
+`/class/{className}` to get class by class name.
+e.g. 'http://localhost:8080/class/druid'
 
 
-/users Gets all users
+## POST options
+*Use Body content type: application/json*
 
-/user/{id} -- Gets user by ID number
-
-/character/{name} -- Gets character by character name
-
-/character/id/{id} -- Gets all characters tied to the user ID.
-
-/class/{className} -- Gets class by name: Implemented classes: Blackguard, Disciple of Khaine, Sorceress
+POST in...
+`/user` to create new user.
+e.g.
+'''
+{
+"userID" : 9,
+"characterName" : "PalaCraig",
+"className" : "Paladin",
+"characterLvl" : 8
+}
+'''
