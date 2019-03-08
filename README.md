@@ -5,22 +5,22 @@
 
 ### GET...    
 `/users` to get all users.    
-e.g. `http://localhost:8080/users`
+*for example:* `http://localhost:8080/users`
 
 `/user{id}` to get user by ID number.    
-e.g. `http://localhost:8080/user/1`
+*for example:* `http://localhost:8080/user/1`
 
 `/characters` to get all characters.    
-e.g. `http://localhost:8080/characters`
+*for example:* `http://localhost:8080/characters`
 
 `/character/{id}` to get character by ID number.    
-e.g. `http://localhost:8080/characters`
+*for example:* `http://localhost:8080/characters`
 
 `/classes` to get all classes.    
-e.g. `http://localhost:8080/classes`
+*for example:* `http://localhost:8080/classes`
 
 `/class/{className}` to get class by class name.    
-e.g. `http://localhost:8080/class/druid`
+*for example:* `http://localhost:8080/class/Druid`
 
 
 ## POST options
